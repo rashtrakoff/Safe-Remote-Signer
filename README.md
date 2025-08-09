@@ -2,9 +2,12 @@
 
 A multichain Gnosis Safe transaction signing bot designed for Raspberry Pi deployment. This bot monitors pending transactions across multiple blockchain networks and automatically signs them using a secure private key.
 
+> [!WARNING]
+> Use this remote signer only if you use another wallet (preferably a hardware wallet). Goes without saying but make sure you trust the other signer(s).
+
 ## Features
 
-- 🔐 **Secure Signing**: Uses private key stored securely in environment variables for transaction signing
+- 🔐 **Secure Signing**: Uses private key stored in environment variables for transaction signing
 - 🌐 **Multichain Support**: Supports multiple chains with a single Safe address
 - 🛡️ **Security Controls**: Built-in deny-list to prevent dangerous operations
 - 🔄 **Automated Monitoring**: Continuous polling for pending transactions and messages
